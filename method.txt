@@ -1,0 +1,12 @@
+1-) owocf 1 -> Kaybetmemiz veya kazanmamız lazım.
+2-) owocf 1 -> İlk durumda gelen sonuç ile aynı olması lazım.
+
+Arka arkaya iki kere kaybetmeniz veya kazanmanız lazım. Arka arkaya gelmesi önemli. Gelmezse tekrar 1. aşamadan başla. Gelirse 3. aşamaya geç.
+
+3-) owocf 5001 <--> owocf 5001 t -> Eğer iki kez kazandıysanız " owocf 5001 t ", eğer iki kez kaybettiyseniz " owocf 5001 " yap. Kazanırsan 1. aşamaya geç. Kaybedersen 4. aşamaya geç.
+4-) owocf 12543 <--> owocf 12543 t -> Eğer 3. aşamada "Head" kaybettiyseniz, " owocf 12543 ", "Tails" kaybettiyseniz " owocf 12543 t " yap. Kazanırsan 1. aşamaya geç. Kaybedersen 5. aşamaya geç.
+5-) owopray -> Şansımızı arttıralım.
+6-) owocf 27599 <--> owocf 27599 t -> Eğer 4. aşamada "Head" kaybettiyseniz, " owocf 27599 " , "Tails" kaybettiyseniz " owocf 27599 t " yap. Kazanırsan 1. aşamaya geç. Kaybedersen 7. aşamaya geç.
+7-) owocf 70123 <--> owocf 70123 t -> Eğer 6. aşamada "Head" kaybettiyseniz, " owocf 70123 " , "Tails" kaybettiyseniz " owocf 70123 t " yap. Eğer yine kaybedersen 8. aşamaya geç.
+8-) owocf all <--> owocf all t -> Eğer 7. aşamada "Head" kaybettiyseniz, " owocf all ", "Tails" kaybettiyseniz " owocf all t " yap.
+Eninde sonunda garanti kazanacaksınız.
